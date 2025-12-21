@@ -5,58 +5,59 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Рево-кофе</title>
+	<link rel="stylesheet" href = "styles/styles.css">
 </head>
 <body>
-	<header>
+	<header class="header">
 		<h1>Самый вкусный Рево-кофе</h1>
-		<img src="assets/img/LOGO.png" alt="Логотип Рево-кофе">
+		<img src="assets/img/LOGO.png" alt="Логотип Рево-кофе" class="header__logo">
 		<img src="assets/img/banner.png" alt="Баннер главной 
 		страницы Рево-кофе">
 		<img src="assets/icons/shopping-cart-3.png" alt="Корзина покупок">
-		<nav>
-			<ul>
-				<li><a href="#">Навигационная ссылка</a></li>
-				<li><a href="#">Навигационная ссылка</a></li>
-				<li><a href="#">Навигационная ссылка</a></li>
-				<li><a href="#">Навигационная ссылка</a></li>
-				<li><a href="#">Навигационная ссылка</a></li>
+		<nav class="header__nav">
+			<ul class="nav">
+				<li class="nav__item"><a class="nav__link" href="#about">О нас</a></li>
+				<li class="nav__item"><a class="nav__link" href="#products">Продукция</a></li>
+				<li class="nav__item"><a class="nav__link" href="#giftset">Подарочные Наборы</a></li>
+				<li class="nav__item"><a class="nav__link" href="#combo">Комбо-наборы</a></li>
+
 			</ul>
 		</nav>
 	</header>
 
 	<main>
-		<section>
-			<h2>Заголовок второго уровня</h2>
+		<section id="about">
+			<h2>О Нас</h2>
 			<div>
-				<article>
+				<article class="card">
 					<img src="assets/icons/ic.png" alt="Иконка кофейни">
 					<h3>Заголовок третьего уровня</h3>
 					<p>Равным образом, граница обучения кадров требует определения и&nbsp;уточнения позиций, занимаемых участниками в&nbsp;отношении поставленных задач.</p>
 				</article>
 
-				<article>
+				<article class="card">
 					<img src="assets/icons/beans.png" alt="Иконка зерен кофе">
 					<h3>Заголовок третьего уровня</h3>
 					<p>Повседневная практика показывает, что укрепление и&nbsp;развитие внутренней структуры не&nbsp;даёт нам иного выбора, кроме определения переосмысления внешнеэкономических политик.</p>
 				</article>
 
-				<article>
+				<article class="card">
 					<img src="assets/icons/beabs_pack.png" alt="Иконка пакетов кофе">
 					<h3>Заголовок третьего уровня</h3>
 					<p>Идейные соображения высшего порядка, а&nbsp;также рамки и&nbsp;место обучения кадров способствует подготовки и&nbsp;реализации новых предложений.</p>
 				</article>
 
-				<article>
+				<article class="card">
 					<img src="assets/icons/cup.png" alt="Иконка чашки кофе">
 					<h3>Заголовок третьего уровня</h3>
 					<p>Современные технологии достигли такого уровня, что реализация намеченных плановых заданий выявляет срочную потребность как самодостаточных, так и&nbsp;внешне зависимых концептуальных решений.</p>
 				</article>
 			</div>
 		</section>
-		<section>
-			<h2>Заголовок второго уровня</h2>
+		<section id="products">
+			<h2>Наша Продукция</h2>
 			<div>
-				<article>
+				<article class="card">
 					<h3>Заголовок третьего уровня</h3>
 					<p>99.000</p>
 					<img src="assets/img/coff-yellow.png" alt="Фотография желтого пакета кофе">
@@ -65,7 +66,7 @@
 					<a href="#">ссылка</a>
 				</article>
 
-				<article>
+				<article class="card">
 					<h3>Заголовок третьего уровня</h3>
 					<p>139.000</p>
 					<img src="assets/img/coff-orange.png" alt="Фотография оранжевого пакета кофе">
@@ -74,7 +75,7 @@
 					<a href="#">ссылка</a>
 				</article>
 
-				<article>
+				<article class="card">
 					<h3>Заголовок третьего уровня</h3>
 					<p>85.000</p>
 					<img src="assets/img/coff_blue.png" alt="Фотография синего пакета кофе">
@@ -83,7 +84,7 @@
 					<a href="#">ссылка</a>
 				</article>
 
-				<article>
+				<article class="card">
 					<h3>Заголовок третьего уровня</h3>
 					<p>75.000</p>
 					<img src="assets/img/coff_black.png" alt="Фотография коричневого пакета кофе">
@@ -93,10 +94,10 @@
 				</article>
 			</div>
 		</section>
-		<section>
-			<h2>Заголовок второго уровня</h2>
+		<section id="giftset">
+			<h2>Подарочные Наборы</h2>
 			<div>
-				<article>
+				<article class="card">
 					<img src="assets/img/pr-0018-r.png" alt="Фотография пакетов кофе">		<h3>Заголовок третьего уровня</h3>	
 					<p>285.000</p>					
 					<p>Идейные соображения высшего порядка, а&nbsp;также рамки и&nbsp;место обучения кадров способствует подготовки и&nbsp;реализации новых предложений.</p>
@@ -116,10 +117,10 @@
 			</div>
 		</section>
 
-		<section>
-			<h2>Заголовок второго уровня</h2>
+		<section id="combo">
+			<h2>Комбо-наборы</h2>
 			<div>
-				<article>
+				<article class="card">
 					<img src="assets/img/coff-or_and_cup.png" alt="Фотография коричневого пакета кофе и чашки с кофе">
 					<h3>Заголовок третьего уровня</h3>
 					<p>Современные технологии достигли такого уровня, что реализация намеченных плановых заданий выявляет срочную потребность как самодостаточных, так и&nbsp;внешне зависимых концептуальных решений.</p>
@@ -127,7 +128,7 @@
 					<a href="#">ссылка</a>
 					<a href="#">ссылка</a>
 				</article>
-				<article>
+				<article class="card">
 					<img src="assets/img/coff-bl_and_cup.png" alt="Фотография голубого пакета кофе и чашки с кофе">
 					<h3>Заголовок третьего уровня</h3>
 					<p>Современные технологии достигли такого уровня, что реализация намеченных плановых заданий выявляет срочную потребность как самодостаточных, так и&nbsp;внешне зависимых концептуальных решений.</p>
@@ -135,7 +136,7 @@
 					<a href="#">ссылка</a>
 					<a href="#">ссылка</a>
 				</article>
-				<article>
+				<article class="card">
 					<img src="assets/img/coff-red_and_cup.png" alt="Фотография красного пакета кофе и чашки с кофе">
 					<h3>Заголовок третьего уровня</h3>
 					<p>Современные технологии достигли такого уровня, что реализация намеченных плановых заданий выявляет срочную потребность как самодостаточных, так и&nbsp;внешне зависимых концептуальных решений.</p>

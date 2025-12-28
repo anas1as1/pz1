@@ -169,3 +169,18 @@ a:active {
 		padding: 10px;
 	}
 }
+
+img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+
+body {
+	overflow-x: hidden;
+}
+.main-banner {
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+}
